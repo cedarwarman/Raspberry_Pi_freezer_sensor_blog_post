@@ -4,7 +4,7 @@ Code for a blog post about setting up a freezer temperature sensor on a Raspberr
 ```
 ├── LICENSE                             
 ├── README.md
-├── app.R								# R Shiny app for vizualizing the freezer data
+├── app.R                               # R Shiny app for vizualizing the freezer data
 ├── python
 │   ├── freezer_alarm.py                # Sends emails when temps are high or sensor is down
 │   ├── python_data
