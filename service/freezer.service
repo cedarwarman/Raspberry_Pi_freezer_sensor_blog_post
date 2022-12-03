@@ -1,0 +1,11 @@
+[Unit]
+Description=freezer_thermocouple
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/git/Raspberry_Pi_freezer_sensor_blog_post/python/read_freezer_thermocouple.py
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
